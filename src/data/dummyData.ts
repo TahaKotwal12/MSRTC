@@ -1,5 +1,5 @@
 // Dummy data for development and testing
-import { Depot, Vehicle, Staff, Route, Trip } from '../types';
+import type { Depot, Vehicle, Staff, Route, Trip } from '../types';
 
 export const dummyDepots: Depot[] = [
     {
