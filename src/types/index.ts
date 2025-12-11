@@ -1,4 +1,4 @@
-// Core Entity Types for MSRTC Operations Automation System
+// Core Entity Types for Bus Operations Management System
 
 export interface Depot {
     id: string;

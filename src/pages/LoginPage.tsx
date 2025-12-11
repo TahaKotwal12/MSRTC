@@ -60,10 +60,10 @@ export default function LoginPage({ onLoginSuccess }: LoginPageProps) {
                             <span className="text-3xl">🚌</span>
                         </div>
                         <h1 className="text-3xl font-bold text-primary-700 mb-2">
-                            MSRTC Ops Console
+                            BusOps Console
                         </h1>
                         <p className="text-secondary-600">
-                            Digital Operations Management System
+                            Bus Operations Management System
                         </p>
                     </div>
 
@@ -129,7 +129,7 @@ export default function LoginPage({ onLoginSuccess }: LoginPageProps) {
 
                 {/* Footer */}
                 <div className="text-center mt-6 text-secondary-600 text-sm">
-                    <p>Government of Maharashtra - MSRTC</p>
+                    <p>Open Source • Free Forever</p>
                 </div>
             </div>
         </div>

@@ -75,9 +75,9 @@ export default function AppLayout({ children, onLogout }: AppLayoutProps) {
                 <div className="h-16 flex items-center justify-between px-6 border-b border-secondary-200">
                     <div className="flex items-center gap-3">
                         <div className="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center">
-                            <span className="text-white text-lg font-bold">M</span>
+                            <Bus size={18} className="text-white" />
                         </div>
-                        <h1 className="text-xl font-bold text-primary-700">MSRTC Ops</h1>
+                        <h1 className="text-xl font-bold text-primary-700">BusOps</h1>
                     </div>
                     {/* Close button for mobile */}
                     <button

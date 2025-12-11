@@ -1,4 +1,4 @@
-// Utility functions for the MSRTC application
+// Utility functions for the BusOps application
 
 import { format, formatDistance, formatRelative, parseISO } from 'date-fns';
 

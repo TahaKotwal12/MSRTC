@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import './index.css';
+import LandingPage from './pages/LandingPage';
 import LoginPage from './pages/LoginPage';
 import DashboardPage from './pages/DashboardPage';
 import TripsPage from './pages/TripsPage';
@@ -175,8 +176,8 @@ function App() {
             }
           />
 
-          {/* Default Route - Redirect to login */}
-          <Route path="/" element={<Navigate to="/login" replace />} />
+          {/* Default Route - Landing Page */}
+          <Route path="/" element={<LandingPage />} />
 
           {/* Catch all route */}
           <Route path="*" element={<Navigate to="/login" replace />} />
